@@ -1,0 +1,32 @@
+**********************************************************************************************************************************************************************************************************
+*
+*
+*-------------------------------------------------------------------------------!! STOCK BALANCE APPLICATION !!-------------------------------------------------------------------------------------------
+*
+*	Ver. 1.0.0	Authored by Aidin Ghassemloi
+*
+**********************************************************************************************************************************************************************************************************
+*   
+*
+*   Available console commands (Type [U] in console to list commands again):
+*
+*      [exit] To exit application.	[L] To list current inventory.		[D] Deletes all inventories.	[U] Display command usage again.
+*
+*      [S + inventory name] Search for an inventory.	[R + inventory name] Removes an inventory by name.      [SR + inventory name] Search for an inventory by name.
+*
+*      [I + inventory name + amount] Adds an inventory and its amount.		[S + inventory name + amount] Removes current inventory amount.
+*
+*
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*
+*    
+*   Example of command usage:
+*    
+*      I Soap 10 --> adds the inventory Soap with amount of 10.
+*      S Soap 2  --> removes the amount of 2 from the Soap inventory.
+*      L         --> List current inventory.
+*      SR Soap   --> Search for an inventory by name.
+*      R Soap    --> Removes the inventory Soap from the inventory.
+*     							
+*
+**********************************************************************************************************************************************************************************************************
