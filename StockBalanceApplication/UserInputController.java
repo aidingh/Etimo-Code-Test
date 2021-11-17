@@ -20,7 +20,6 @@ public class UserInputController {
      */
     public void parseUserInput(String userInput) {
         String[] inputData = userInput.split(" ");
-        System.out.println(Arrays.toString(inputData));
 
         if (inputData.length > 3) {
             StockBalanceView.printInputToLargeMessage();
